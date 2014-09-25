@@ -73,7 +73,6 @@ class ThemeRequestListener
 
             if (!$cookieValue && $this->autoDetect instanceof DeviceDetectionInterface) {
                 $cookieValue = $this->getThemeType($event->getRequest());
-		$this->activeTheme->setName($cookieValue);
             }
 
             if ($cookieValue && $cookieValue !== $this->activeTheme->getName()
