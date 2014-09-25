@@ -37,7 +37,6 @@ class DeviceDetection implements DeviceDetectionInterface
             "osx" => "Mac OS X",
             "linux" => "Linux",
             "windows" => "Windows",
-            "generic" => "",
         )
     );
 
